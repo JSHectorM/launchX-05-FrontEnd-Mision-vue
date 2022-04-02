@@ -14,6 +14,21 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+  },
+  {
+    path: '/pasteles',
+    name: 'PastelesView',
+    component: () => import('../views/PastelesView.vue')
+  },
+  {
+    path: '/pedido',
+    name: 'pedidoView',
+    component: () => import('../views/PedidoView.vue')
+  },
+  {
+    path: '/pastelero',
+    name: 'pasteleroView',
+    component: () => import('../views/PasteleroView.vue')
   }
 ]
 
