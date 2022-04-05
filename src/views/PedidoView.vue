@@ -1,11 +1,19 @@
 <template>
   <div class="pedido">
-    <h1>pedido</h1>
+  <NavbarCom/>
+    <PedidosCom/>
   </div>
 </template>
 
 <script>
-export default {
+import NavbarCom from '@/components/NavbarComponent.vue'
+import PedidosCom from '@/components/PedidosComponent.vue'
 
+export default {
+  name: 'PasteleroView',
+  components: {
+    NavbarCom,
+    PedidosCom
+  }
 }
 </script>

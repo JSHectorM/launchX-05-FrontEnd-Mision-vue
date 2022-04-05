@@ -1,9 +1,10 @@
 <template>
   <div class="jumbotron m-3">
-    <h1 class="display-3 text-center">
-            Pastelería Jasmín
+        <h1 class="display-3 text-center">
+            Pastelero ...
         </h1>
-        <p class="lead">
+        <div class="lead">
+            <h2>Acerca de mi ...</h2>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores amet quod maxime?
             Praesentium eos, minima, ipsa obcaecati unde voluptas excepturi quibusdam voluptatem
             vitae facilis necessitatibus culpa, illum doloribus! Praesentium, autem!. Lorem ipsum
@@ -13,16 +14,18 @@
             Eaque officia repellat maiores possimus nulla temporibus, distinctio, voluptate quos
             recusandae qui quas amet eos, dolores cupiditate quibusdam. Iure distinctio repudiandae
              tempore incidunt reprehenderit? Veritatis optio temporibus laboriosam excepturi enim.
-        </p>
-        <div class="text-center">
-          <img src="../assets/img/pastel.png" class="img-fluid rounded" alt="">
         </div>
-        <router-link class="btn btn-outline-secondary btn-lg btn-block" role="button" to="/pastelero">Pide tu pastel aquí</router-link>
-  </div>
+        <hr class="my-4">
+        <div>
+            <div class="text-center">
+                <img src="../assets/img/chef.png" class="img-fluid rounded" alt="">
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'PateleroCom'
 }
 </script>

@@ -1,5 +1,19 @@
 <template>
   <div class="pasteles">
-    <h1>Pasteles</h1>
+  <NavbarCom/>
+    <PatelesCom/>
   </div>
 </template>
+
+<script>
+import NavbarCom from '@/components/NavbarComponent.vue'
+import PatelesCom from '@/components/PastelesComponent.vue'
+
+export default {
+  name: 'PastesView',
+  components: {
+    NavbarCom,
+    PatelesCom
+  }
+}
+</script>

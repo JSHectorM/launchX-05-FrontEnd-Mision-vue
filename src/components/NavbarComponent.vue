@@ -25,9 +25,6 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <!-- <a class="btn btn-outline-secondary" href="pages/pastelero.html" role="button">
-                    Pastelero
-                </a> -->
                 <router-link class="btn btn-outline-secondary" role="button" to="/pastelero">Pastelero</router-link>
             </form>
         </div>
